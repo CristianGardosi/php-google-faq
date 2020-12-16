@@ -99,8 +99,40 @@
 
     </main>
 
-    <footer class="header">
-
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <ul class="footer-links-list">
+                    <li class="footer-links-item">
+                        <a class="footer-link" href="#">
+                            <small>Google</small>
+                        </a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-link" href="#">
+                            <small>Tutto su google</small>
+                        </a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-link" href="#">
+                            <small>Privacy</small>
+                        </a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a class="footer-link" href="#">
+                            <small>Termini</small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-language">
+                <select name="language" id="language">
+                    <option value="ita">
+                        Italiano
+                    </option>
+                </select>
+            </div>
+        </div>
     </footer>
 
 
