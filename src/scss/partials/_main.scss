@@ -1,0 +1,15 @@
+.main {
+    width: 70vw;
+    margin: 150px auto;
+
+    .question {
+        margin-top: 60px;
+        padding: 40px 0;
+        color: $normalText;
+    }
+
+    .answer {
+        color: $navlinks;
+        line-height: 2rem;
+    }
+}

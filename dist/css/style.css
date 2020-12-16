@@ -8,6 +8,13 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+}
+
 .header-logo-account {
   display: flex;
   justify-content: space-between;
@@ -82,5 +89,21 @@ body {
   color: #3b6dd7;
   padding: 5px;
   border-bottom: 5px solid #3b6dd7;
+}
+
+.main {
+  width: 70vw;
+  margin: 150px auto;
+}
+
+.main .question {
+  margin-top: 60px;
+  padding: 40px 0;
+  color: #3c4043;
+}
+
+.main .answer {
+  color: #5f6368;
+  line-height: 2rem;
 }
 
