@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header-logo-account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header-logo-account .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-account .logo img {
+  width: 100px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.header-logo-account .logo a {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #5f6368;
+  text-decoration: none;
+}
+
+.header-logo-account .logo a:hover {
+  color: #3c4043;
+}
+
+.header-logo-account .account {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-account .account img {
+  width: 50px;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+
+.header-logo-account .account a i {
+  font-size: 20px;
+  color: #5f6368;
+}
+
+.header-logo-account .account a i:hover {
+  color: #3c4043;
+}
+
+.nav-links {
+  padding: 10px;
+  border-bottom: 1px solid #3c4043;
+}
+
+.nav-links .nav-links-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-links .nav-links-list .nav-item {
+  padding: 0 20px;
+  list-style: none;
+}
+
+.nav-links .nav-links-list .nav-item .nav-link {
+  color: #5f6368;
+  text-decoration: none;
+}
+
+.nav-links .nav-links-list .nav-item .active {
+  color: #3b6dd7;
+  padding: 5px;
+  border-bottom: 5px solid #3b6dd7;
+}
+

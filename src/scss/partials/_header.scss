@@ -1,0 +1,70 @@
+.header-logo-account {
+    @include flexRow('space-between');
+    padding: 10px 20px;
+    .logo {
+        display: flex;
+        align-items: center;
+
+        & img {
+            width: 100px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+        }
+
+        & a {
+            font-size: 20px;
+            font-weight: lighter;
+            color: $navlinks;
+            text-decoration: none;
+
+            &:hover {
+                color: $normalText;
+            }
+        }
+    }
+
+    .account {
+        display: flex;
+        align-items: center;
+
+       & img {
+            width: 50px;
+            margin-left: 30px;
+            border-radius: 50%;
+        }
+
+        & a i {
+            font-size: 20px;
+            color: $navlinks;
+
+            &:hover {
+                color: $normalText;
+            }
+        }
+    }
+}
+
+.nav-links {
+    padding: 10px;
+    border-bottom: 1px solid $normalText;
+
+    .nav-links-list {
+        @include flexRow('start');
+
+        .nav-item {
+            padding: 0 20px;
+            list-style: none;
+
+            .nav-link {
+                color: $navlinks;
+                text-decoration: none;
+            }
+
+            .active {
+                color: $insideTextLinks;
+                padding: 5px;
+                border-bottom: 5px solid $insideTextLinks;
+            }
+        }
+    }
+}
